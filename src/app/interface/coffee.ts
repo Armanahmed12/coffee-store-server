@@ -26,7 +26,7 @@ const coffeeSchema = new mongoose.Schema(
       trim: true,
     },
 
-    category: {
+    price : {
       type: String,
       required: true,
       trim: true,
